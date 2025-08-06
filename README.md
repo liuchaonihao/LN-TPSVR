@@ -1,4 +1,4 @@
-# GL-TPSVR
+# LN-TPSVR
 1. Abstract
    
 Most regression techniques assume that noise characteristics are influenced by a Gauss distribution. However, in some low-quality data, such as photovoltaic power generation and traffic flow estimation, studies have found that data noise does not follow a Gauss distribution but rather tends to follow a Laplace distribution. Therefore, this paper introduces Laplace noise characteristics by combining the proximal support vector regression (PSVR) model with the twin support vector regression (TSVR) model, designing a new regressor, called the twin proximal support vector regression with Laplace noise (LN-TPSVR). Furthermore, the stochastic gradient descent (SGD) is used to solve the LN-TPSVR model.
