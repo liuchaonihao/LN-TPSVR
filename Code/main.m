@@ -2,8 +2,8 @@
 clear all
 close all 
 load photovoltaic
-num = 3000;
-step = 7;
+num = 9600;
+step = 1;
 TrainingSetX = [];
 for i=1:num
     temp = photovoltaic(i:step+i,1);
