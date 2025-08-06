@@ -1,7 +1,7 @@
 # GL-TPSVR
 1. Abstract
    
-Both the classic proximal support vector regression (PSVR) and the twin support vector regression (TSVR) assume that the data is affected by a single noise characteristic distribution. However, in some low-quality data, such as wind power and photovoltaic power, it is found that the data does not obey a single noise distribution, but tends to follow a Gauss-Laplace mixed noise distribution. Therefore, based on the theoretical basis of the PSVR model combined with the TSVR model, we introduce the Gauss-Laplace mixed noise feature, and design a new regressor, called the twin proximal support vector regression with Gauss-Laplace mixed noise (GL-TPSVR). At the same time, the augmented Lagrange multiplier (ALM) method is used to solve the GL-TPSVR model.
+Most regression techniques assume that noise characteristics are influenced by a Gauss distribution. However, in some low-quality data, such as photovoltaic power generation and traffic flow estimation, studies have found that data noise does not follow a Gauss distribution but rather tends to follow a Laplace distribution. Therefore, this paper introduces Laplace noise characteristics by combining the proximal support vector regression (PSVR) model with the twin support vector regression (TSVR) model, designing a new regressor, called the twin proximal support vector regression with Laplace noise (LN-TPSVR). Furthermore, the stochastic gradient descent (SGD) is used to solve the LN-TPSVR model.
 
 2. Installation
 
@@ -17,7 +17,7 @@ https://github.com/liuchaonihao/TPSVR.git
 
 2. Code
 
-Run mulphrdemo.m
+Run main.m
 
 ## Application
 MATLAB Compiler
